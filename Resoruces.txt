@@ -1,0 +1,50 @@
+1.https://quantpedia.com/strategies/using-vix-to-time-options-writing/
+
+Malkiel, Burton G. and Rinaudo, Alex and Saha, Atanu: Option Writing: Using VIX to Improve Returns
+https://jod.pm-research.com/content/26/2/38
+
+
+New Ideas:
+2. https://quantpedia.com/strategies/portfolio-hedging-using-vix-options/
+
+	https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2792358 
+
+Fundamental Reason :
+
+Volatility tends to cluster and mean-revert. Allocation of fixed percentage per month allows more options to be purchased when VIX is below the mean and fewer options to be purchased when VIX is above the mean
+
+
+-  uses vix options as vix is not direclty tradable
+-  systematically buy vix call options with moneyness 135% 
+-  equal number of contracts in first , second , thrid and fourth backward month
+-  roll option to next expiry a day before expiry 
+-  vix futures and options have wednesday expiry ( broad market indices have friday)
+-  weight of vix options in portfolio is depened on the vix index level
+-  all trade
+
+ if on rebalance day:
+ a. VIX Index in between 15 and 30 - option weight in portfolio 1.00%
+ b. VIX Index in between 30 and 50 - option weight in portfolio 0.50%.
+ c. VIX Index is below and above 50 - option weight in portfolio 0.00%.
+
+- sample portfolio 60% SPY ETF , 40%  iShares 7-10 Year Treasury Bond ETF (IEF)
+
+
+3. https://quantpedia.com/strategies/holding-artificial-vix-in-a-portfolio/
+
+James Doran: Volatility as an Asset Class: Holding VIX in a Portfolio
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3514141
+
+
+- Study concludes (cites) best hedge would be long volatility 
+- VIX Index is not tradable and VIX derivatives are expensive
+- VIX Index (Volatility) can be replicated by holding combination of SPX options
+- The options which can be characterized to be the most responsible for driving the movements of the VIX index are ITM puts and ATM calls
+- The best performance can be made by buying the ITM-OTM put spread and selling the ATM-OTM call spread. 
+- options provides the portfolio with access to long volatility exposition while maintaining cost-efficiency
+- It is set to be the point in time when the value of the VIX index is lower than the mean of VIX plus one standard deviation
+
+4. https://quantpedia.com/strategies/combining-vix-futures-term-structure-strategy-and-sp500-index/
+
+Jim Campasano: Portfolio Strategies for Volatility Investing
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3490978
